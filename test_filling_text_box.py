@@ -9,7 +9,7 @@ class TestEndToEnd(TestBase):
         global main_page
         global textbox_page
         main_page = super().get_main_page()
-        textbox_page = super().get_elements_page()
+        textbox_page = super().get_textbox_page()
 
     def test_successful_filling_text_box(self):
         super().choose_elements()
