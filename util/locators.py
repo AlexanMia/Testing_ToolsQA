@@ -14,3 +14,6 @@ class TextBox:
     BUTTON_SUBMIT = (By.ID, 'submit')
     FIELD_WITH_RESULTS = (By.ID, 'output')
     RESULT_FIELD_WITH_INFO = (By.CLASS_NAME, 'border')
+
+class Checkbox:
+    BUTTON_CHECKBOX = (By.ID, 'item-1')
