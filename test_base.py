@@ -25,5 +25,5 @@ class TestBase:
         return elements_page
 
     @staticmethod
-    def choose_elements(self):
+    def choose_elements():
         main_page.click_elements_button()
